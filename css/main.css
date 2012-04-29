@@ -2,8 +2,16 @@ body {
   background: #151515 url('../images/bkg.png') 0 0;
   font-family: Monaco, 'Bitstream Vera Sans Mono', 'Lucida Console', Terminal, monospace;
   color: #C84553;
-  font-size: large;
   -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color:#C84553
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 header {
@@ -14,7 +22,10 @@ h1 {
   font-family: LeagueGothicRegular, HelveticaNeue-CondensedBold, 'Franklin Gothic Demi Cond', 'Franklin Gothic Medium Cond', Impact, sans-serif;
   text-transform:uppercase;
   color: #C84553;
-  font-size: 30px;
+}
+
+header h1 {
+  font-size: 45px;
 }
 
 header h2 {
@@ -29,6 +40,14 @@ div.container{
 }
 
 #post-body {
-  font-size:16px;
+  font-size:14px;
   color:#EAEAEA;
+}
+
+#post-body h1 {
+  font-size:25px;
+}
+
+#index {
+  padding:15px;
 }
