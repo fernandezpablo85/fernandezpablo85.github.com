@@ -1,0 +1,90 @@
+@dark-red: #C84553;
+@dark-gray: #988;
+@light-gray: #EAEAEA;
+
+.body-font {
+  font-family: Monaco, 'Bitstream Vera Sans Mono', 'Lucida Console', Terminal, monospace;
+  color: @dark-red;
+  -webkit-font-smoothing: antialiased;
+}
+
+.all-caps-font (@size: 45px) {
+  font-family: LeagueGothicRegular, HelveticaNeue-CondensedBold, 'Franklin Gothic Demi Cond', 'Franklin Gothic Medium Cond', Impact, sans-serif;
+  text-transform:uppercase;
+  color: @dark-red;
+  font-size: @size;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: #151515 url('../images/bkg.png') 0 0;
+  .body-font;
+}
+
+a {
+  text-decoration: none;
+  color: @dark-red;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  border-bottom: 1px dashed @dark-red;
+
+  a:hover{
+    text-decoration:none;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 18px;
+    color: @dark-gray;
+  }
+}
+
+h1 {
+  .all-caps-font;
+}
+
+h2 {
+  .all-caps-font(16px);
+}
+
+h3 {
+  .all-caps-font(35px);
+  color:@dark-gray;
+}
+
+code {
+  background-color:#EEE;
+  color:black;
+  font-weight:bold;
+}
+
+div.container{
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#post-body {
+  font-size:14px;
+  color: @light-gray;
+  text-align:justify;
+  h1 {
+   font-size:25px; 
+  }
+}
+
+#index {
+  padding:15px;
+}
+
+#index a {
+  .all-caps-font(18px)
+}

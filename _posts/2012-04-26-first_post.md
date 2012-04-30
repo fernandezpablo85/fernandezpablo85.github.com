@@ -9,5 +9,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at ultricies orc
 
 Nulla elementum ligula id eros gravida cursus. Vivamus hendrerit elementum ullamcorper. Etiam aliquet gravida lobortis. Sed ligula justo, commodo quis auctor nec, mattis eu urna. Proin consectetur pellentesque pellentesque. Mauris dui odio, dignissim at convallis ac, tempus luctus turpis. Aliquam placerat gravida convallis. Sed rutrum pharetra dignissim. Pellentesque feugiat diam in lorem pellentesque egestas. Vivamus sed purus lacus. Donec aliquam risus sit amet metus suscipit rutrum. Ut elit neque, mollis sit amet condimentum a, euismod eleifend lacus. Proin sodales lobortis bibendum.
 
+<script src="https://gist.github.com/2024382.js?file=boton.java">foo</script>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et mauris sapien, ut dapibus tellus. Cras non dui at quam ultricies convallis. Mauris at turpis sem. Vivamus dapibus porttitor enim, quis congue sapien tincidunt et. Ut rutrum egestas est. Nulla in gravida massa. Etiam quis tortor lacus. Ut porttitor varius ornare. Quisque commodo accumsan viverra. Mauris vulputate varius malesuada. Donec eget quam at eros viverra tempus vitae in diam. Curabitur tincidunt pharetra posuere.
 
