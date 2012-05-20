@@ -39,7 +39,7 @@ Fear not since doing this is not hard at all, in fact its so simple that we're g
 
 <script src="https://gist.github.com/1623971.js">_</script>
 
-We're using [EventEmitter](http://nodejs.org/docs/latest/api/events.html), a class that's part of node's library (the object you get from an http response inherits from it too). Feel free to dig into the docs, but the most important methods of it are emit, `which` is used to fire events, and `on` which attaches handlers to particular events. Those handlers receive the parameters provided to the emit method.
+We're using [EventEmitter](http://nodejs.org/docs/latest/api/events.html), a class that's part of node's library (the object you get from an http response inherits from it too). Feel free to dig into the docs, but the most important methods of it are `emit`, which is used to fire events, and `on` which attaches handlers to particular events. Those handlers receive the parameters provided to the emit method.
 
 # Wrapping up
 
