@@ -88,15 +88,21 @@ div.container{
   font-size: 14px;
   color: @light-gray;
   text-align: justify;
-  h1 {
-    .all-caps-font(25px);
-    color: @dark-red;
-  }
+}
 
-  h2 {
-    .all-caps-font(16px);
-    color: @dark-red;
-  }
+h1 {
+  .all-caps-font(25px);
+  color: @dark-red;
+}
+
+h2 {
+  .all-caps-font(16px);
+  color: @dark-red;
+}
+
+h3 {
+  .all-caps-font(35px);
+  color: @dark-red;
 }
 
 #index {
@@ -105,4 +111,27 @@ div.container{
 
 #index a {
   .all-caps-font(18px)
+}
+
+#bio {
+  font-size: 14px;
+  margin: 20px 0px;
+}
+
+#follow-me {
+  float:right;
+  margin-right: 50px;
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+}
+
+#follow-me:hover {
+  opacity: 1;
+  -moz-opacity: 1;
+}
+
+#profile-pic {
+  display: block;
+  margin: 25px auto;
+  border: 3px solid black;
 }
