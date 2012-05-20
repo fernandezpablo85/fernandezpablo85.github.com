@@ -71,11 +71,6 @@ header {
   }
 }
 
-h1 {
-  .all-caps-font;
-  color: @dark-red;
-}
-
 code {
   background-color: #EEE;
   color: black;
@@ -94,7 +89,13 @@ div.container{
   color: @light-gray;
   text-align: justify;
   h1 {
-   font-size: 25px;
+    .all-caps-font(25px);
+    color: @dark-red;
+  }
+
+  h2 {
+    .all-caps-font(16px);
+    color: @dark-red;
   }
 }
 
