@@ -2,6 +2,17 @@
 @glow-red: #FF4553;
 @dark-gray: #988;
 @light-gray: #EAEAEA;
+@selection-red: #F07272;
+
+::selection {
+  background-color: @selection-red;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: @selection-red;
+  color: white;
+}
 
 .body-font {
   font-family: 'PT Sans', Monaco,  monospace;
@@ -79,9 +90,13 @@ code {
   -webkit-font-smoothing: antialiased;
 }
 
-div.container{
+div.gist {
+  font-size:0.95em;
+}
+
+div.container {
   width: 90%;
-  max-width: 600px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
