@@ -19,10 +19,13 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
+    <script src='/javascripts/main.js'></script>
   </head>
   <body>
     <header>
-      <a href='http://twitter.com/fernandezpablo' target='_blank'><img src='/images/twitter.png'/ id='follow-me' alt='follow me on Twitter' height='88' width='120'/></a>
+      <a href='http://twitter.com/fernandezpablo' target='_blank' onclick="_track('follow', 'main follow me button');">
+        <img src='/images/twitter.png'/ id='follow-me' alt='follow me on Twitter' height='88' width='120'/>
+      </a>
       <div class='container'>
         <a href='/'>
           <h1>Let's Have a War</h1>
