@@ -39,6 +39,14 @@
         {{content}}
       </section>
     </div>
+    <footer>
+      {% if page.hnlink %}
+        <a href='{{page.hnlink}}' target='_blank'>
+          <img src='/images/y18.gif' alt='hnlogo' />
+          Comments on Hacker News
+        </a>
+      {% endif %}
+    </footer>
   </body>
 </html>
 
