@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Slick Connection Pooling
-hnlink: http://news.ycombinator.com/item?id=5130823
+hnlink: https://news.ycombinator.com/item?id=5508873
 ---
 
 # Meet Slick
