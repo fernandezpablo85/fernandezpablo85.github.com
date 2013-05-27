@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Building a Firehose API with Play
-hnlink: https://news.ycombinator.com/item?id=5508873
+hnlink: https://news.ycombinator.com/item?id=5774460
 ---
 
 # Firehose who?
